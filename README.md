@@ -4,10 +4,6 @@ This is a template portfolio website that you can use to create your own persona
 
 The [HTML5UP Dimension template](https://html5up.net/dimension) was used as motivation 🎨.
 
-## Credits
-
-**Background Photos** are generated using DALL-E 3 🎥 and edited in Adobe Photoshop 🖌️.
-
 If you use this template, please leave a ⭐.
 
 ## Support
