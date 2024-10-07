@@ -128,9 +128,14 @@ nav ul li a:hover {
 
 .separator {
     width: 60%;
-    border-top: 2px solid black;
+    border-top: 2px solid black; /* Default black for light mode */
     margin: 20px auto;
 }
+
+body.dark-mode .separator {
+    border-top: 2px solid white; /* White for dark mode */
+}
+
 
 .update-box {
     display: none;
