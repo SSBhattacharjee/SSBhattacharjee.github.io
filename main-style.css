@@ -81,12 +81,16 @@ nav ul li a {
     color: inherit;
     padding: 10px 20px;
     border-radius: 10px;
-    border: 1px solid black; /* Changing here */
+    border: 1px solid black;
     transition: background 0.3s, color 0.3s;
     font-size: 18px;
     display: inline-block;
     min-width: 150px;
     text-align: center;
+}
+
+body.dark-mode nav ul li a {
+    border: 1px solid white; /* White border in dark mode */
 }
 
 nav ul li a:hover {
@@ -133,7 +137,6 @@ nav ul li a:hover {
 body.dark-mode .separator {
     border-top: 2px solid white; /* White for dark mode */
 }
-
 
 .update-box {
     display: none;
