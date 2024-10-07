@@ -21,7 +21,7 @@ body.dark-mode {
 }
 
 body.dark-mode nav ul li a:hover {
-    background: rgba(255, 255, 255, 0.2); /* Lighter background for hover in dark mode */
+    background: rgba(255, 255, 255, 0.8); /* Darker background for hover in dark mode */
     color: #fff; /* Ensure the text remains white for contrast */
 }
 
