@@ -121,6 +121,22 @@
         .dark-mode .theme-toggle i, .dark-mode .home-button i {
             color: white;
         }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9; /* Light background for default mode */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s, color 0.3s;
+        }
+        
+        .dark-mode .container {
+            background-color: #1f1f1f; /* Dark background for dark mode */
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Softer shadow for dark mode */
+            color: #e0e0e0; /* Light text color for dark mode */
+        }
+
         @media (max-width: 768px) {
             .header .title {
                 font-size: 18px;
@@ -190,6 +206,8 @@
     <div class="bio-image">
         <img src="DP.jpeg" alt="Profile Picture">
     </div>
+    <br>
+    <div class="container">
     <div class="bio-text">
         <div class="bio-section">
             <h2>Introduction</h2>
@@ -231,6 +249,7 @@
                 <p>A <a href='https://1ssb.github.io/gallery/'>gallery</a> of some experiences and memories. Connect with me on <a href="https://www.facebook.com/1ssb.rudra">Facebook</a>!</p>
             </div>
         </div>
+    </div>
     </div>
     <footer>
         &copy; Subhransu S. Bhattacharjee, <span id="year"></span>
