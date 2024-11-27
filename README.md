@@ -5,7 +5,3 @@ This is a template portfolio website that you can use to create your own persona
 The [HTML5UP Dimension template](https://html5up.net/dimension) was used as motivation 🎨.
 
 If you use this template, please leave a ⭐.
-
-## Support
-
-For queries, kindly [contact me](https://1ssb.github.io/contact/) 📩.
